@@ -1,0 +1,836 @@
+{
+  "generatedAt": "2026-09-13T13:16:54.817510+00:00",
+  "region": "BD",
+  "city": "DK",
+  "totalChannels": 69,
+  "channels": [
+    {
+      "id": "QMwWnZUBtpl-Sbt7S2sx",
+      "name": "& Pictures HD",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "QMwWnZUBtpl-Sbt7S2sx/posters/8cad9a82-842a-47bf-a060-f17011f11c07.png",
+      "mediaIds": [
+        "kh9dFpcBEef-9-uVAA9S"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "5cwRnZUBtpl-Sbt7wWrN",
+      "name": "&TV HD",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "801",
+      "logo": "5cwRnZUBtpl-Sbt7wWrN/posters/5779ade3-e9ba-4107-b3da-bae6f891500a.png",
+      "mediaIds": [
+        "61t6DJcBDJulSulupTts"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "Ny61-JQBv9knK3AHgzZ7",
+      "name": "Animal Planet",
+      "category": "['Adventure', 'Historical']",
+      "subType": "Live_TV",
+      "externalId": "359",
+      "logo": "Ny61-JQBv9knK3AHgzZ7/posters/0909b36a-afd5-426a-93b3-4512800977db.webp",
+      "mediaIds": [
+        "mC5b-JQBv9knK3AHxDTb"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "Ni61-JQBv9knK3AHcDYc",
+      "name": "Animal Planet HD",
+      "category": "['Adventure', 'Historical', 'Science Fiction']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Ni61-JQBv9knK3AHcDYc/posters/c16e8633-6b2a-401a-9cd6-ac26a4fcdedb.webp",
+      "mediaIds": [
+        "eXXN7ZYBcqxnFHJB8mMy"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "MyK__poBEef-9-uVmf5l",
+      "name": "Asian TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "MyK__poBEef-9-uVmf5l/posters/1eadef5b-28e7-4dc2-b42f-c67a3357c9a0.png",
+      "mediaIds": [
+        "HiK9_poBEef-9-uVIf6m"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "PC6F-JQBv9knK3AHlTUO",
+      "name": "B4U Movies APAC",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "PC6F-JQBv9knK3AHlTUO/posters/fb0243ba-39a0-4101-a78c-c197be550c6c.webp",
+      "mediaIds": [
+        "EHXV7ZYBcqxnFHJBLWQ_"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "JiK-_poBEef-9-uVZv6L",
+      "name": "Bangla TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "JiK-_poBEef-9-uVZv6L/posters/757a328e-70d6-45de-b093-0a843c69ade7.png",
+      "mediaIds": [
+        "oHu8_poBcqxnFHJBQjKJ"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "mC6W-JQBv9knK3AHfDWA",
+      "name": "Cartoon Network",
+      "category": "['Teen']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "mC6W-JQBv9knK3AHfDWA/posters/d2a02d82-fde4-4769-a6d9-95c0560e2120.webp",
+      "mediaIds": [
+        "JXXX7ZYBcqxnFHJBKWRm"
+      ],
+      "railId": "36eff4e5ed817e63c4a0859a0e11f1d5"
+    },
+    {
+      "id": "1y6e-JQBv9knK3AHNDWb",
+      "name": "Cartoon Network HD +",
+      "category": "['Teen']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "1y6e-JQBv9knK3AHNDWb/posters/ee9ba01b-1bcf-436b-b273-7b857f0810fb.webp",
+      "mediaIds": [
+        "8HXS7ZYBcqxnFHJBa2M3"
+      ],
+      "railId": "36eff4e5ed817e63c4a0859a0e11f1d5"
+    },
+    {
+      "id": "DYMI_58BJIOHmUelm3aK",
+      "name": "CGTN",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "DYMI_58BJIOHmUelm3aK/posters/d8436322-804a-47b6-9a3f-62764c4622d5.png",
+      "mediaIds": [
+        "f9TJ_p8BalKyvLQIAiTs"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "qnv835oBcqxnFHJBuQcB",
+      "name": "Channel i",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "qnv835oBcqxnFHJBuQcB/posters/348dfac3-c1e0-485d-a72b-3d282c9e2c73.png",
+      "mediaIds": [
+        "jnvr35oBcqxnFHJBdQdJ"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "rYOv_p8BJIOHmUelrnXh",
+      "name": "Channel News Asia",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "rYOv_p8BJIOHmUelrnXh/posters/d537453f-7e5b-45f3-9b52-42f6f65950c8.png",
+      "mediaIds": [
+        "eNTH_p8BalKyvLQIxyQn"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "WyPuDJsBEef-9-uVUA_z",
+      "name": "Channel S",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "WyPuDJsBEef-9-uVUA_z/posters/ea20055c-a824-443c-8083-ce8e2da8b922.png",
+      "mediaIds": [
+        "EXvfDJsBcqxnFHJBpEYU"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "VC6Q-JQBv9knK3AHhTXt",
+      "name": "CNN",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "333",
+      "logo": "VC6Q-JQBv9knK3AHhTXt/posters/63e79814-8fcf-4c3e-bb66-408b2a402613.webp",
+      "mediaIds": [
+        "bR5I8ZYBEef-9-uVOLkf"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "6Hz1PJwBcqxnFHJBhgkV",
+      "name": "Desh TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "6Hz1PJwBcqxnFHJBhgkV/posters/845f1e3f-987a-47cc-a48d-ee12d8f4d419.png",
+      "mediaIds": [
+        "0XzzPJwBcqxnFHJBPQmT"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "KS6x-JQBv9knK3AHwDZy",
+      "name": "Discovery",
+      "category": "['Adventure']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "KS6x-JQBv9knK3AHwDZy/posters/6594d216-aaca-4eee-b6f5-bbc6b80feb15.webp",
+      "mediaIds": [
+        "wHfSZZgBcqxnFHJBsTgU"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "KC6x-JQBv9knK3AHqjYc",
+      "name": "Discovery HD",
+      "category": "['Adventure']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "KC6x-JQBv9knK3AHqjYc/posters/55e554f1-dbbb-47bd-97fe-fca878726c4c.webp",
+      "mediaIds": [
+        "QHXZ7ZYBcqxnFHJBEGQJ"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "1i6e-JQBv9knK3AHHTXR",
+      "name": "Discovery Kids",
+      "category": "['Teen']",
+      "subType": "Live_TV",
+      "externalId": "611",
+      "logo": "1i6e-JQBv9knK3AHHTXR/posters/325887a7-84ea-4cf9-a6fd-6111ddc25671.webp",
+      "mediaIds": [
+        "VR59DJcBEef-9-uVZfXF"
+      ],
+      "railId": "36eff4e5ed817e63c4a0859a0e11f1d5"
+    },
+    {
+      "id": "AS6s-JQBv9knK3AHDTZb",
+      "name": "Discovery Science",
+      "category": "['Science Fiction']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "AS6s-JQBv9knK3AHDTZb/posters/eab8fd0f-9351-464c-b45e-332f38b49f4b.webp",
+      "mediaIds": [
+        "nB7_8JYBEef-9-uVOLQR"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "Ay6s-JQBv9knK3AHJTY1",
+      "name": "Discovery Turbo",
+      "category": "['Adventure']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Ay6s-JQBv9knK3AHJTY1/posters/e8f65578-e82d-4e4a-a1ff-073becc5bd71.webp",
+      "mediaIds": [
+        "bXUB8ZYBcqxnFHJBfWWY"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "7oPt_p8BJIOHmUelhXWj",
+      "name": "DW",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "7oPt_p8BJIOHmUelhXWj/posters/d6328092-9437-4806-8dc7-d00732d56832.png",
+      "mediaIds": [
+        "fNTI_p8BalKyvLQIJyRG"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "PS_La5oBNnOkwJLWLRN_",
+      "name": "Ekattor TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "PS_La5oBNnOkwJLWLRN_/posters/e8c444fd-ee3b-4bf3-bb0a-f969bc295f82.png",
+      "mediaIds": [
+        "_C_Ea5oBNnOkwJLWLhFz"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "o3v235oBcqxnFHJBkAdC",
+      "name": "Ekhon TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "o3v235oBcqxnFHJBkAdC/posters/159af631-796d-4342-a2a7-c272f32bcd32.png",
+      "mediaIds": [
+        "hXvo35oBcqxnFHJBRwcJ"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "JS1AqZgBNnOkwJLWlwg-",
+      "name": "EPL channel 1",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "JS1AqZgBNnOkwJLWlwg-/posters/694bf019-e016-412a-9be2-9ead6981683a.png",
+      "mediaIds": [
+        "qyAzqZgBEef-9-uVHpri"
+      ],
+      "railId": "55fdb2bedaca2de399b470fb0ce14117"
+    },
+    {
+      "id": "Mi1QqZgBNnOkwJLWxggo",
+      "name": "EPL channel 2",
+      "category": "['Sports', 'Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Mi1QqZgBNnOkwJLWxggo/posters/a9f4ca5f-c440-43b7-bb45-6dac7a7310a4.png",
+      "mediaIds": [
+        "sCA1qZgBEef-9-uVCprL"
+      ],
+      "railId": "55fdb2bedaca2de399b470fb0ce14117"
+    },
+    {
+      "id": "Pi1TqZgBNnOkwJLWVggf",
+      "name": "EPL channel 3",
+      "category": "['Sports', 'Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Pi1TqZgBNnOkwJLWVggf/posters/e4ed880d-f067-4a06-812f-596bed42a0d0.png",
+      "mediaIds": [
+        "mi02qZgBNnOkwJLWdQfS"
+      ],
+      "railId": "55fdb2bedaca2de399b470fb0ce14117"
+    },
+    {
+      "id": "Uy6Q-JQBv9knK3AHcDUQ",
+      "name": "Eurosport HD",
+      "category": "['Sports']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Uy6Q-JQBv9knK3AHcDUQ/posters/01709bcd-6d53-4710-a64f-bc49cecf1d61.webp",
+      "mediaIds": [
+        "Jh5g7ZYBEef-9-uVfbFd"
+      ],
+      "railId": "08d90cecf964eb9a5f6be2e1887066fd"
+    },
+    {
+      "id": "G4ML_58BJIOHmUelNXZr",
+      "name": "France 24",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "G4ML_58BJIOHmUelNXZr/posters/becc2fba-4ed5-4f43-af2d-3c1ea2b4ee57.png",
+      "mediaIds": [
+        "gdTK_p8BalKyvLQIHSSZ"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "0C63X5UBv9knK3AHxaOs",
+      "name": "HUM",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "0C63X5UBv9knK3AHxaOs/posters/6dce1143-1045-4fec-ac4f-86d2bfb32447.png",
+      "mediaIds": [
+        "-lrMvZYBDJulSulul8Iu"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "T9O9X5UBm1RY_In7UXFv",
+      "name": "HUM Masala",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "T9O9X5UBm1RY_In7UXFv/posters/30e0f372-eb3e-4cf9-be1e-b196a40c2fc7.png",
+      "mediaIds": [
+        "OB5n7ZYBEef-9-uVbbF1"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "WtPBX5UBm1RY_In7mXEU",
+      "name": "HUM Sitaray",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "WtPBX5UBm1RY_In7mXEU/posters/188d51f6-aeef-41ed-835b-e25ff911e209.png",
+      "mediaIds": [
+        "X3RbupYBcqxnFHJBiPvc"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "ES_cZZsBNnOkwJLW1Oz1",
+      "name": "Independent TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "ES_cZZsBNnOkwJLW1Oz1/posters/b872b8f5-cb6b-45a1-a1cd-7609df51d614.png",
+      "mediaIds": [
+        "Ai_bZZsBNnOkwJLW4-xl"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "ay7uX5UBv9knK3AHs6TI",
+      "name": "Investigation Discovery HD",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "ay7uX5UBv9knK3AHs6TI/posters/deb3c186-b2e1-4a91-aafb-d86f9128b851.png",
+      "mediaIds": [
+        "9h5B8ZYBEef-9-uVOrhP"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "jehEA54BIxFjn23xAmdw",
+      "name": "Islamic TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "jehEA54BIxFjn23xAmdw/posters/2c276556-cbcd-4467-b627-4394bb20f250.png",
+      "mediaIds": [
+        "dejPAp4BIxFjn23xTWeg"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "PiL635oBEef-9-uV2uCe",
+      "name": "Jamuna TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "PiL635oBEef-9-uV2uCe/posters/36f380e0-6c71-4b27-a73b-2afb3ce7e982.png",
+      "mediaIds": [
+        "i3vq35oBcqxnFHJBZQfA"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "-Xz3PJwBcqxnFHJBDAlE",
+      "name": "Mohona TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "-Xz3PJwBcqxnFHJBDAlE/posters/fecea361-8b60-4aeb-a530-6e27eee8178a.png",
+      "mediaIds": [
+        "xnzyPJwBcqxnFHJBcgk-"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "CXz4PJwBcqxnFHJBPwrG",
+      "name": "Movie Bangla",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "CXz4PJwBcqxnFHJBPwrG/posters/2f913e34-3a6c-45e6-9f1f-97bf129a2ff5.png",
+      "mediaIds": [
+        "3Hz0PJwBcqxnFHJBLAnT"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "FHz5PJwBcqxnFHJBdAqW",
+      "name": "Nexus TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "FHz5PJwBcqxnFHJBdAqW/posters/419869ac-8ddf-4909-86c1-b69f0a3adf13.png",
+      "mediaIds": [
+        "t3zxPJwBcqxnFHJBxAlL"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "wHLVIJ4B7a1HdMSjaGLJ",
+      "name": "NTV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "wHLVIJ4B7a1HdMSjaGLJ/posters/83b89557-3ae8-4ca8-8c5d-3c617359c738.png",
+      "mediaIds": [
+        "sXLTIJ4B7a1HdMSjomI-"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "ny6W-JQBv9knK3AHujXC",
+      "name": "POGO",
+      "category": "['Teen']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "ny6W-JQBv9knK3AHujXC/posters/7e7c2afe-a663-4c09-983a-2d0fa0f1ca9a.webp",
+      "mediaIds": [
+        "wXXQ7ZYBcqxnFHJBp2PI"
+      ],
+      "railId": "36eff4e5ed817e63c4a0859a0e11f1d5"
+    },
+    {
+      "id": "KECGB54BuUSiBsg_dHyj",
+      "name": "Rajdhani TV",
+      "category": "['Live Action', 'Drama', 'Movies']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "KECGB54BuUSiBsg_dHyj/posters/58af9c58-ed80-458c-af13-cf381680cec6.png",
+      "mediaIds": [
+        "eOg6Bp4BIxFjn23xnGnZ"
+      ],
+      "railId": "911e8f640af3a8892b628714d4acc133"
+    },
+    {
+      "id": "CNT2_p8BalKyvLQIBSUG",
+      "name": "Russia Today",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "CNT2_p8BalKyvLQIBSUG/posters/1e937055-a014-4274-bb69-b1b56d18c434.png",
+      "mediaIds": [
+        "xIPI_p8BJIOHmUelYXV0"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "FdT9_p8BalKyvLQIpCUP",
+      "name": "Saudi Quran",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "FdT9_p8BalKyvLQIpCUP/posters/6b39f2c6-6fe8-4720-a986-379e09968b5b.png",
+      "mediaIds": [
+        "fdTI_p8BalKyvLQIhiRe"
+      ],
+      "railId": "9988b22058e87ba742a8d734e640e759"
+    },
+    {
+      "id": "JNQA_58BalKyvLQIhiVD",
+      "name": "Saudi Sunnah",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "JNQA_58BalKyvLQIhiVD/posters/11e764bf-7969-4dcb-a94c-937a3bde2a7f.png",
+      "mediaIds": [
+        "xoPI_p8BJIOHmUelwnW6"
+      ],
+      "railId": "9988b22058e87ba742a8d734e640e759"
+    },
+    {
+      "id": "Xi_Ga5oBNnOkwJLWkhKP",
+      "name": "Somoy TV",
+      "category": "['Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "Xi_Ga5oBNnOkwJLWkhKP/posters/ef2899d5-1ae0-4fee-aee5-45f9b0b3ba80.png",
+      "mediaIds": [
+        "8C_Da5oBNnOkwJLWVRGq"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "MC6C-JQBv9knK3AHUzUT",
+      "name": "Sony BBC Earth HD",
+      "category": "['Family']",
+      "subType": "Live_TV",
+      "externalId": "670",
+      "logo": "MC6C-JQBv9knK3AHUzUT/posters/a8c32fd3-2ba7-437c-85ac-de2f1b2fa6ca.webp",
+      "mediaIds": [
+        "zh6aDJcBEef-9-uV8_Xo"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "Ay52-JQBv9knK3AHFDWt",
+      "name": "Sony MAX",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "352",
+      "logo": "Ay52-JQBv9knK3AHFDWt/posters/00afb30b-3c19-4c4c-abd8-891db94e4767.webp",
+      "mediaIds": [
+        "5B5tDJcBEef-9-uVFfTJ"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "Ii5_-JQBv9knK3AHLDV3",
+      "name": "Sony MAX 2",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "353",
+      "logo": "Ii5_-JQBv9knK3AHLDV3/posters/d961cc87-81b6-4b30-8414-8c0af2774818.webp",
+      "mediaIds": [
+        "wh5oDJcBEef-9-uVEvRj"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "Ai51-JQBv9knK3AH_jWs",
+      "name": "Sony MAX HD",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "641",
+      "logo": "Ai51-JQBv9knK3AH_jWs/posters/663e52a6-1a9f-4458-b4aa-7c03d84972f1.webp",
+      "mediaIds": [
+        "1R5rDJcBEef-9-uVKfRj"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "Ly6C-JQBv9knK3AHOjXt",
+      "name": "Sony PIX HD",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "2419",
+      "logo": "Ly6C-JQBv9knK3AHOjXt/posters/252e64ca-8d99-46e7-a951-e10c1703c11d.webp",
+      "mediaIds": [
+        "-R5vDJcBEef-9-uV5vTO"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "ra2x_pQBrjBfS2_RWG9l",
+      "name": "Sony Ten Cricket",
+      "category": "['Sports']",
+      "subType": "Live_TV",
+      "externalId": "301891",
+      "logo": "ra2x_pQBrjBfS2_RWG9l/posters/795170c2-ec78-457e-9fa0-54a23d23361c.webp",
+      "mediaIds": [
+        "qB63DJcBEef-9-uVH_hl"
+      ],
+      "railId": "08d90cecf964eb9a5f6be2e1887066fd"
+    },
+    {
+      "id": "py5j-JQBv9knK3AHxDTY",
+      "name": "Sony Ten Sports 1 HD",
+      "category": "['Sports']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "py5j-JQBv9knK3AHxDTY/posters/ea3358b9-2bec-4615-a889-daa2e396c74c.webp",
+      "mediaIds": [
+        "03TTtZYBcqxnFHJB8fky"
+      ],
+      "railId": "08d90cecf964eb9a5f6be2e1887066fd"
+    },
+    {
+      "id": "sy5m-JQBv9knK3AHYTTk",
+      "name": "Sony Ten Sports 2 HD",
+      "category": "['Sports']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "sy5m-JQBv9knK3AHYTTk/posters/5e40bf0e-633f-4d37-a3b2-3d606f0ac19a.png",
+      "mediaIds": [
+        "XXRbupYBcqxnFHJBD_t6"
+      ],
+      "railId": "08d90cecf964eb9a5f6be2e1887066fd"
+    },
+    {
+      "id": "vi5n-JQBv9knK3AHqzTC",
+      "name": "Sony Ten Sports 5 HD",
+      "category": "['Sports']",
+      "subType": "Live_TV",
+      "externalId": "606",
+      "logo": "vi5n-JQBv9knK3AHqzTC/posters/d171fd4d-0369-4213-b0c5-e241974f5459.png",
+      "mediaIds": [
+        "PlqZ5pYBDJulSulu-PxG"
+      ],
+      "railId": "08d90cecf964eb9a5f6be2e1887066fd"
+    },
+    {
+      "id": "IC5_-JQBv9knK3AHFDXh",
+      "name": "Sony YAY",
+      "category": "['Family']",
+      "subType": "Live_TV",
+      "externalId": "612",
+      "logo": "IC5_-JQBv9knK3AHFDXh/posters/36df4012-80f2-4a98-9970-3b663f62093f.webp",
+      "mediaIds": [
+        "dh6VDJcBEef-9-uV3fWo"
+      ],
+      "railId": "36eff4e5ed817e63c4a0859a0e11f1d5"
+    },
+    {
+      "id": "7C6j-JQBv9knK3AHVzUA",
+      "name": "TLC",
+      "category": "['Fantasy']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "7C6j-JQBv9knK3AHVzUA/posters/e8f84105-5efe-4e91-a0d4-18a0849cf2f2.webp",
+      "mediaIds": [
+        "Hx778JYBEef-9-uVDrSj"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "7S6j-JQBv9knK3AHbzXC",
+      "name": "TLC HD",
+      "category": "['Fantasy']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "7S6j-JQBv9knK3AHbzXC/posters/0973097c-bc5c-4b28-aaca-f04d6f6cb5e2.webp",
+      "mediaIds": [
+        "L3X88JYBcqxnFHJB62U_"
+      ],
+      "railId": "84a2451df95d2eb3d2b0d09c5fc34fb1"
+    },
+    {
+      "id": "b60Ss5UBrjBfS2_RJPb8",
+      "name": "Toffee Movies",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "2708",
+      "logo": "b60Ss5UBrjBfS2_RJPb8/posters/c68ede73-0be0-41b7-9130-9628a16f2feb.png",
+      "mediaIds": [
+        "Z3WtRpcBcqxnFHJBQ-8t"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "1YPq_p8BJIOHmUelSHXc",
+      "name": "TRT World",
+      "category": "['Documentary']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "1YPq_p8BJIOHmUelSHXc/posters/f65b0273-0f23-4b56-93dd-417224369105.png",
+      "mediaIds": [
+        "etTH_p8BalKyvLQI_iSM"
+      ],
+      "railId": "cb7ea308e7742680ea8df1aae153bc9b"
+    },
+    {
+      "id": "V__o054BObUt2AG6LL5C",
+      "name": "WC Match Recap",
+      "category": "['Sports', 'Live Action']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "V__o054BObUt2AG6LL5C/posters/84590b8d-6430-4ba8-a0a5-757bf2f57c05.png",
+      "mediaIds": [
+        "Z_-s054BObUt2AG6hLzT"
+      ],
+      "railId": "55fdb2bedaca2de399b470fb0ce14117"
+    },
+    {
+      "id": "Pc3RD5YBtpl-Sbt7doxr",
+      "name": "Zee Action",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "355",
+      "logo": "Pc3RD5YBtpl-Sbt7doxr/posters/33d667ae-bcc3-4f6b-b376-76c552136923.png",
+      "mediaIds": [
+        "1Ft4DJcBDJulSuluUTtn"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "7x0Jd5YBEef-9-uVv_Gy",
+      "name": "Zee Anmol",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "4567",
+      "logo": "7x0Jd5YBEef-9-uVv_Gy/posters/f9c07bfc-9fde-40d0-91a1-e28c5840f400.png",
+      "mediaIds": [
+        "83WvD5cBcqxnFHJB7JQw"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "kK2aX5UBrjBfS2_RBcKf",
+      "name": "Zee Bangla",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "kK2aX5UBrjBfS2_RBcKf/posters/ba5dd8dc-4f87-414a-b57f-c9ecdeda5253.png",
+      "mediaIds": [
+        "Ox7KtZYBEef-9-uVq02F"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "-C7MX5UBv9knK3AHdKOi",
+      "name": "Zee Bangla Cinema",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "403",
+      "logo": "-C7MX5UBv9knK3AHdKOi/posters/e37fef13-9bf3-4ecc-8b74-fca091874fa0.png",
+      "mediaIds": [
+        "Ah5wDJcBEef-9-uV_fUO"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "OnSlPJYBcqxnFHJB6lFX",
+      "name": "Zee Bollywood",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "400",
+      "logo": "OnSlPJYBcqxnFHJB6lFX/posters/d9ccb2a6-227f-4a41-8714-efaddab5cf5e.png",
+      "mediaIds": [
+        "hB6jDJcBEef-9-uVg_bp"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "U3QEd5YBcqxnFHJBpYzc",
+      "name": "Zee Cafe",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "",
+      "logo": "U3QEd5YBcqxnFHJBpYzc/posters/8bc7ae1b-1a46-4b76-bdb1-13c7dbd3a95c.png",
+      "mediaIds": [
+        "nnW-w5YBcqxnFHJBeQXu"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "5y7HX5UBv9knK3AHs6Nk",
+      "name": "Zee Cinema HD",
+      "category": "['Movies']",
+      "subType": "Live_TV",
+      "externalId": "804",
+      "logo": "5y7HX5UBv9knK3AHs6Nk/posters/7582fb79-c15f-4247-ba5b-1d2dd27f3d71.png",
+      "mediaIds": [
+        "Jx52DJcBEef-9-uVVPU3"
+      ],
+      "railId": "cceb01a3ecb01516539b0adad38c1400"
+    },
+    {
+      "id": "ltPQX5UBm1RY_In7b3F1",
+      "name": "Zee TV HD",
+      "category": "['Drama']",
+      "subType": "Live_TV",
+      "externalId": "644",
+      "logo": "ltPQX5UBm1RY_In7b3F1/posters/d039d9df-9877-4969-a0b6-56888ebe2385.png",
+      "mediaIds": [
+        "Mh6gDJcBEef-9-uVp_Yg"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    },
+    {
+      "id": "DK8dd5YBrjBfS2_Ru22e",
+      "name": "Zing",
+      "category": "['Comedy']",
+      "subType": "Live_TV",
+      "externalId": "391",
+      "logo": "DK8dd5YBrjBfS2_Ru22e/posters/a4e57fd0-1853-4540-a9bc-0265ee43b5cb.png",
+      "mediaIds": [
+        "wnWuD5cBcqxnFHJBnZSY"
+      ],
+      "railId": "be7d42854f019db42fbc22153674b888"
+    }
+  ]
+}

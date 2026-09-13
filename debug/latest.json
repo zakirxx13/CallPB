@@ -1,0 +1,53 @@
+{
+  "started_at": "2026-09-13T13:16:52.187148+00:00",
+  "rails": [
+    {
+      "rail_id": "cceb01a3ecb01516539b0adad38c1400",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "08d90cecf964eb9a5f6be2e1887066fd",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "55fdb2bedaca2de399b470fb0ce14117",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "911e8f640af3a8892b628714d4acc133",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "84a2451df95d2eb3d2b0d09c5fc34fb1",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "9988b22058e87ba742a8d734e640e759",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "be7d42854f019db42fbc22153674b888",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "36eff4e5ed817e63c4a0859a0e11f1d5",
+      "status": 200,
+      "success": true
+    },
+    {
+      "rail_id": "cb7ea308e7742680ea8df1aae153bc9b",
+      "status": 200,
+      "success": true
+    }
+  ],
+  "playback": [],
+  "errors": [],
+  "finished_at": "2026-09-13T13:16:54.818592+00:00"
+}
