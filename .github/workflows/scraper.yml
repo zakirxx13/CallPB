@@ -1,0 +1,121 @@
+name: Toffee Scraper
+
+on:
+  schedule:
+    # প্রতি ৬ ঘণ্টায় একবার
+    - cron: '0 */6 * * *'
+
+  # GitHub Actions থেকে manually চালানো যাবে
+  workflow_dispatch:
+
+# GitHub Action যেন repository-তে commit/push করতে পারে
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: Scrape Toffee Live
+    runs-on: ubuntu-latest
+
+    steps:
+
+      # ------------------------------------------------
+      # 1. Checkout repository
+      # ------------------------------------------------
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      # ------------------------------------------------
+      # 2. Setup Python
+      # ------------------------------------------------
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # ------------------------------------------------
+      # 3. Install dependencies
+      # ------------------------------------------------
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      # ------------------------------------------------
+      # 4. Run scraper
+      # ------------------------------------------------
+      - name: Run scraper
+        run: |
+          echo "======================================"
+          echo "Starting Toffee scraper..."
+          echo "======================================"
+
+          python scraper.py
+
+          echo "======================================"
+          echo "Scraper finished"
+          echo "======================================"
+
+      # ------------------------------------------------
+      # 5. Show generated files
+      # ------------------------------------------------
+      - name: Show output
+        if: always()
+        run: |
+          echo ""
+          echo "========== DATA =========="
+          find data -type f -maxdepth 2 -print 2>/dev/null || true
+
+          echo ""
+          echo "========== DEBUG =========="
+          find debug -type f -maxdepth 3 -print 2>/dev/null || true
+
+      # ------------------------------------------------
+      # 6. Check Git changes
+      # ------------------------------------------------
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add data/ debug/
+
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected."
+            git diff --cached --stat
+          fi
+
+      # ------------------------------------------------
+      # 7. Commit changes
+      # ------------------------------------------------
+      - name: Commit changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git commit -m "Update Toffee Live data: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+      # ------------------------------------------------
+      # 8. Push changes
+      # ------------------------------------------------
+      - name: Push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git push
+
+      # ------------------------------------------------
+      # 9. Finish message
+      # ------------------------------------------------
+      - name: Finished
+        if: always()
+        run: |
+          echo "======================================"
+          echo "Toffee scraper workflow completed."
+          echo "======================================"
