@@ -1,4 +1,4 @@
-name: Check Toffee Playback
+name: Inspect Toffee Requests
 
 on:
   workflow_dispatch:
@@ -7,8 +7,8 @@ permissions:
   contents: write
 
 jobs:
-  check-playback:
-    name: Check Playback API
+  inspect:
+    name: Inspect Toffee Watch Page
     runs-on: ubuntu-latest
 
     steps:
@@ -22,54 +22,51 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
+      - name: Install Playwright
         run: |
           python -m pip install --upgrade pip
-          python -m pip install requests
+          python -m pip install playwright
+          python -m playwright install --with-deps chromium
 
-      - name: Check Playback API
+      - name: Run request inspector
         run: |
-          echo "======================================"
-          echo "Checking Toffee playback API..."
-          echo "======================================"
+          echo "=========================================="
+          echo "Starting Toffee request inspection"
+          echo "=========================================="
 
-          python check_playback.py
+          python inspect_headers.py
 
-      - name: Show result
+      - name: Save inspection output
         if: always()
         run: |
-          echo "======================================"
-          echo "Playback check result"
-          echo "======================================"
+          mkdir -p debug
 
-          if [ -f debug/playback_check.json ]; then
-            cat debug/playback_check.json
-          else
-            echo "playback_check.json not found"
-          fi
+          # If the Python script already created an output file,
+          # keep it. Otherwise GitHub Actions console logs can
+          # still be inspected from the workflow run.
+          echo "Inspection completed at $(date -u)" \
+            > debug/inspection_run.txt
 
-      - name: Check changes
-        id: changes
+      - name: Show debug files
+        if: always()
         run: |
-          git add debug/playback_check.json
+          echo "=========================================="
+          echo "DEBUG FILES"
+          echo "=========================================="
+
+          find debug -type f -maxdepth 2 -print 2>/dev/null || true
+
+      - name: Commit debug result
+        if: always()
+        run: |
+          git add debug/
 
           if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes."
+            echo "No debug files changed."
           else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Changes detected."
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+
+            git commit -m "Update Toffee request inspection"
+            git push
           fi
-
-      - name: Commit result
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git commit -m "Check Toffee playback API"
-
-      - name: Push result
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          git push
