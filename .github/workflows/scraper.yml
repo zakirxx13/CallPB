@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -28,45 +29,90 @@ jobs:
           python -m pip install playwright
           python -m playwright install --with-deps chromium
 
-      - name: Run request inspector
+      - name: Run inspector
         run: |
-          echo "=========================================="
-          echo "Starting Toffee request inspection"
-          echo "=========================================="
+          echo "======================================"
+          echo "Starting Toffee inspection"
+          echo "======================================"
 
           python inspect_headers.py
 
-      - name: Save inspection output
+      - name: Verify output
         if: always()
         run: |
-          mkdir -p debug
+          echo "======================================"
+          echo "OUTPUT FILE"
+          echo "======================================"
 
-          # If the Python script already created an output file,
-          # keep it. Otherwise GitHub Actions console logs can
-          # still be inspected from the workflow run.
-          echo "Inspection completed at $(date -u)" \
-            > debug/inspection_run.txt
+          if [ -f debug/toffee_requests.json ]; then
+            echo "Output file created successfully."
+            ls -lh debug/toffee_requests.json
 
-      - name: Show debug files
+            echo ""
+            echo "M3U8 summary:"
+            python - <<'PY'
+          import json
+
+          with open(
+              "debug/toffee_requests.json",
+              "r",
+              encoding="utf-8"
+          ) as f:
+              data = json.load(f)
+
+          print(
+              "Total requests:",
+              data.get("total_requests", 0)
+          )
+
+          print(
+              "M3U8 requests:",
+              data.get("m3u8_request_count", 0)
+          )
+
+          for item in data.get(
+              "m3u8_requests",
+              []
+          ):
+              print(
+                  item.get("url", "")
+              )
+          PY
+
+          else
+            echo "ERROR: Output file was not created."
+            exit 1
+          fi
+
+      - name: Commit output
         if: always()
         run: |
-          echo "=========================================="
-          echo "DEBUG FILES"
-          echo "=========================================="
-
-          find debug -type f -maxdepth 2 -print 2>/dev/null || true
-
-      - name: Commit debug result
-        if: always()
-        run: |
-          git add debug/
+          git add debug/toffee_requests.json
 
           if git diff --cached --quiet; then
-            echo "No debug files changed."
+            echo "No changes to commit."
           else
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
 
-            git commit -m "Update Toffee request inspection"
+            git commit \
+              -m "Update Toffee request inspection"
+
             git push
+
+            echo "Output committed and pushed successfully."
+          fi
+
+      - name: Final status
+        if: always()
+        run: |
+          echo "======================================"
+          echo "Workflow finished"
+          echo "======================================"
+
+          if [ -f debug/toffee_requests.json ]; then
+            echo "File: debug/toffee_requests.json"
+            echo "Status: CREATED"
+          else
+            echo "Status: FILE NOT FOUND"
           fi
