@@ -1,97 +1,75 @@
-name: Toffee Scraper
+name: Check Toffee Playback
 
 on:
-  schedule:
-    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  scrape:
-    name: Scrape Toffee Live
+  check-playback:
+    name: Check Playback API
     runs-on: ubuntu-latest
 
     steps:
-
-      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
-      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v6
         with:
-          python-version: '3.11'
+          python-version: "3.11"
 
-      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m pip install requests
 
-      # Run scraper
-      - name: Run scraper
+      - name: Check Playback API
         run: |
           echo "======================================"
-          echo "Starting Toffee scraper..."
+          echo "Checking Toffee playback API..."
           echo "======================================"
 
-          python scraper.py
+          python check_playback.py
 
-          echo "======================================"
-          echo "Scraper finished"
-          echo "======================================"
-
-      # Show generated files
-      - name: Show output
+      - name: Show result
         if: always()
         run: |
-          echo "========== DATA =========="
-          find data -type f -maxdepth 2 -print 2>/dev/null || true
+          echo "======================================"
+          echo "Playback check result"
+          echo "======================================"
 
-          echo ""
-          echo "========== DEBUG =========="
-          find debug -type f -maxdepth 3 -print 2>/dev/null || true
+          if [ -f debug/playback_check.json ]; then
+            cat debug/playback_check.json
+          else
+            echo "playback_check.json not found"
+          fi
 
-      # Check changes
-      - name: Check for changes
-        id: check_changes
+      - name: Check changes
+        id: changes
         run: |
-          git add data/ debug/
+          git add debug/playback_check.json
 
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes detected."
+            echo "No changes."
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            echo "Changes detected:"
-            git diff --cached --stat
+            echo "Changes detected."
           fi
 
-      # Commit
-      - name: Commit changes
-        if: steps.check_changes.outputs.changed == 'true'
+      - name: Commit result
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git commit -m "Update Toffee Live data: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          git commit -m "Check Toffee playback API"
 
-      # Push
-      - name: Push changes
-        if: steps.check_changes.outputs.changed == 'true'
+      - name: Push result
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git push
-
-      # Final status
-      - name: Workflow completed
-        if: always()
-        run: |
-          echo "======================================"
-          echo "Toffee scraper workflow completed."
-          echo "======================================"
